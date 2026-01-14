@@ -22,7 +22,9 @@
 ---
 
 ### 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=wngud09&show_icons=true&theme=transparent)
+![GitHub activity](https://github-readme-stats.vercel.app/api?username=wngud09&show_icons=true&theme=radical)
+
+![contribution graph](https://github-readme-streak-stats.herokuapp.com/?user=wngud09&theme=radical)
 
 ---
 
