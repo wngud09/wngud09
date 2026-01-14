@@ -1,4 +1,4 @@
-> **AI Developer | Data Analyst**
+> **AI Developer |**
 > 실무 데이터를 분석하여 문제를 해결하고, 효율적인 AI 서비스를 구현하는 데 집중합니다.
 
 ---
@@ -22,7 +22,7 @@
 ---
 
 ### 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=wugud09&show_icons=true&theme=transparent)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=wngud09&show_icons=true&theme=transparent)
 
 ---
 
