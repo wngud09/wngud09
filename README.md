@@ -120,7 +120,7 @@ Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식�
 ---
 
 ### 6) 🧑‍🍳 AI Store Manager Agent: 매장 매출 분석 & 운영 자동화 (In Progress)
-> **Repository**: [AI-Store-Manager-Agent](https://github.com/your-id/AI-Store-Manager-Agent)
+> **Repository**: [AI-Store-Manager-Agent](https://github.com/o2fms/fms-platform)
 
 POS/매출 데이터와 외부 변수(날씨, 트렌드)를 통합 분석하여 **매출 하락 원인을 설명**하고, 마케팅 실행을 자동화하는 **AI 점장 에이전트**입니다.
 
