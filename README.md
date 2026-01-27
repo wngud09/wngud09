@@ -33,7 +33,7 @@
 ## 💼 Featured Projects
 
 ### 1) ⚖️ Veraclaim: 특허 거절 사유 예측 및 자동 대응 AI
-> **🏆 Awards**: SK네트웍스 Family AI 캠프 **우수상** / 한국컴퓨터정보학회(KSCI) **우수논문상** > **Repository**: [Veraclaim-Patent-Response-AI](https://github.com/wngud09/Patent-Rejection-Response-AI)
+> **Repository**: [Veraclaim-Patent-Response-AI](https://github.com/wngud09/Patent-Rejection-Response-AI) > **🏆 Awards**: SK네트웍스 Family AI 캠프 **우수상** / 한국컴퓨터정보학회(KSCI) **우수논문상** 
 
 특허 심사 비용과 시간을 줄이기 위해, **거절 가능성을 사전 진단하고 대응 논리를 자동 생성**하는 도메인 특화 sLLM 솔루션입니다.
 
