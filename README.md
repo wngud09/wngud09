@@ -55,11 +55,16 @@
 
 강의 자료를 업로드하면 **RAG 기반으로 질의응답**을 제공하고, 중요 개념을 **암기장(Anki) 파일로 자동 변환**해주는 학습 플랫폼입니다.
 
-- **Key Features**:
-  - **Multi-Agent System**: 질문 의도에 따라 단순 검색/심층 분석 에이전트로 자동 분기 처리
+- **Role**: Full-Stack Developer (Django, LangChain)
+- **Key Tech**:
+  - **Multi-Agent System**: 질문 의도에 따라 단순 검색/심층 분석 에이전트로 자동 분기 처리하여 답변 품질 향상
   - **Auto-Anki Pipeline**: 강의 내용에서 핵심 키워드를 추출하여 `.apkg` 파일 자동 생성 및 다운로드 제공
-  - **Real-time**: Django Channels와 Redis를 활용한 **실시간 스트리밍 답변** 및 비동기 작업 처리
-- **Tech Stack**: `Django`, `LangChain`, `ChromaDB`, `Redis`, `Celery`
+  - **Real-time Architecture**: Django Channels와 Redis를 활용한 **실시간 스트리밍 답변** 및 비동기 작업 처리
+
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
 
 ---
 
@@ -68,9 +73,11 @@
 
 Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식별**하고, 마케팅 전략 수립을 돕는 분석 대시보드입니다.
 
-- **Insight**: 단순 예측을 넘어, **'서비스 품질'과 '이탈률'의 상관관계**를 히트맵으로 시각화하여 비즈니스 액션 도출
-- **Modeling**: LightGBM, CatBoost 앙상블 모델을 적용하여 이탈 예측 정확도 최적화
-- **Viz**: Streamlit을 활용하여 이탈 확률 분포 및 **주요 변수 중요도(Feature Importance)** 대시보드 개발
+- **Role**: Data Analyst & ML Engineer
+- **Key Tech**:
+  - **Insight Analysis**: 단순 예측을 넘어, **'서비스 품질'과 '이탈률'의 상관관계**를 히트맵으로 시각화하여 비즈니스 액션 도출
+  - **Ensemble Modeling**: LightGBM, CatBoost 앙상블 모델을 적용하여 이탈 예측 정확도 최적화
+  - **Interactive Viz**: Streamlit을 활용하여 이탈 확률 분포 및 **주요 변수 중요도(Feature Importance)** 대시보드 개발
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
@@ -83,11 +90,15 @@ Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식�
 
 복잡한 법률 용어와 판례를 일반인이 쉽게 이해할 수 있도록 돕는 **법률 특화 RAG 챗봇**입니다.
 
-- **Key Features**:
-  - **Legal RAG**: 판례 데이터 임베딩 및 벡터 DB 기반의 **의미 기반 검색(Semantic Search)**
-  - **Context Awareness**: 대화 맥락을 유지하며 관련된 법률 조항을 정확히 인용하여 답변
-  - **Deploy**: Docker 컨테이너 기반의 배포 환경 구축으로 이식성 확보
-- **Tech Stack**: `Python`, `LangChain`, `FAISS`, `Docker`
+- **Role**: AI Application Developer
+- **Key Tech**:
+  - **Legal RAG Engine**: 판례 데이터 임베딩 및 벡터 DB(FAISS) 기반의 **의미 기반 검색(Semantic Search)**
+  - **Context Awareness**: 대화 맥락을 유지하며 사용자의 질문에 관련된 법률 조항을 정확히 인용하여 답변
+  - **Containerization**: Docker 컨테이너 기반의 배포 환경 구축으로 이식성 및 배포 편의성 확보
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
@@ -96,28 +107,33 @@ Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식�
 
 보배드림, 엔카 등 국내 주요 중고차 플랫폼 데이터를 수집하여 **차종별 시세 트렌드와 선호도**를 분석했습니다.
 
-- **Data Pipeline**: `Selenium`과 `BeautifulSoup`을 활용한 동적 크롤링 및 데이터 전처리 자동화
-- **Analysis**: 브랜드별 감가율 분석 및 가격대별 추천 차종 FAQ 시스템 구현
-- **Tech Stack**: `Python`, `Selenium`, `Streamlit`, `Plotly`
+- **Role**: Data Engineer & Pipeline Builder
+- **Key Tech**:
+  - **Automated Pipeline**: `Selenium`과 `BeautifulSoup`을 활용한 동적 크롤링 및 데이터 전처리 자동화
+  - **Market Analysis**: 브랜드별 감가율 분석 및 가격대별 추천 차종 FAQ 시스템 구현
+  - **Dashboarding**: Plotly와 Streamlit을 연동한 인터랙티브 시세 시각화
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 ---
 
 ### 6) 🧑‍🍳 AI Store Manager Agent: 매장 매출 분석 & 운영 자동화 (In Progress)
+> **Repository**: [AI-Store-Manager-Agent](https://github.com/your-id/AI-Store-Manager-Agent)
 
 POS/매출 데이터와 외부 변수(날씨, 트렌드)를 통합 분석하여 **매출 하락 원인을 설명**하고, 마케팅 실행을 자동화하는 **AI 점장 에이전트**입니다.
 
-- **Objective**: 점주의 "감"에 의존하는 운영을 데이터 기반으로 전환하여 **마케팅 ROI 및 운영 효율 극대화**
-- **Key Features**:
+- **Role**: AI Engineer (Agentic Workflow Design)
+- **Key Tech**:
   - **ReAct Workflow**: [현황 분석 → 계획 → 실행 → 검토 → 제안]의 루프를 통해 능동적으로 문제 해결
-  - **Marketing Auto**: 라이징 인플루언서 발굴/스코어링 및 **컨택 메일 초안 자동 생성**
-  - **Ops Automation**: 직원 스케줄 추천, **손익계산서(P&L) 자동화**, 네이버 플레이스 순위 추적
-- **Tech Stack**: `Python`, `LangChain`, `Google BigQuery`, `SQL`, `Docker`
+  - **Marketing Automation**: 라이징 인플루언서 발굴/스코어링 및 **컨택 메일 초안 자동 생성**
+  - **Operations Logic**: 직원 스케줄 추천, **손익계산서(P&L) 자동화**, 네이버 플레이스 순위 추적
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/Google%20BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
 ---
 
 ## 🛠 Tech Stack
