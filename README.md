@@ -134,6 +134,7 @@ POS/매출 데이터와 외부 변수(날씨, 트렌드)를 통합 분석하여 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/Google%20BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
 ---
 
 ## 🛠 Tech Stack
@@ -172,7 +173,6 @@ POS/매출 데이터와 외부 변수(날씨, 트렌드)를 통합 분석하여 
 - **SQL 개발자 (SQLD)** | 한국데이터산업진흥원
 - **정보처리산업기사** | 한국산업인력공단
 - **리눅스마스터 2급** | 한국정보통신진흥협회
----
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=100&section=footer" />
