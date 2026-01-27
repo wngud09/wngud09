@@ -16,8 +16,6 @@
 **"데이터 흐름을 설계하고, AI로 실무의 비효율을 해결합니다."** 문제의 본질을 파악하여 **최적의 모델을 선정(Model Selection)** 하고,  
 사용자가 실제로 활용 가능한 **안정적인 서비스(Full-Stack AI)** 를 구축합니다.
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=your_github_id.visitor_badge)
-
 </div>
 
 ---
@@ -35,7 +33,7 @@
 ## 💼 Featured Projects
 
 ### 1) ⚖️ Veraclaim: 특허 거절 사유 예측 및 자동 대응 AI
-> **🏆 Awards**: SK네트웍스 Family AI 캠프 **우수상** / 한국컴퓨터정보학회(KSCI) **우수논문상** > **Repository**: [Veraclaim-Patent-Response-AI](https://github.com/your-id/Veraclaim-Patent-Response-AI)
+> **🏆 Awards**: SK네트웍스 Family AI 캠프 **우수상** / 한국컴퓨터정보학회(KSCI) **우수논문상** > **Repository**: [Veraclaim-Patent-Response-AI](https://github.com/wngud09/Patent-Rejection-Response-AI)
 
 특허 심사 비용과 시간을 줄이기 위해, **거절 가능성을 사전 진단하고 대응 논리를 자동 생성**하는 도메인 특화 sLLM 솔루션입니다.
 
@@ -53,7 +51,7 @@
 ---
 
 ### 2) 📝 Django RAG Study Assistant: 학습 보조 & Anki 생성 웹 서비스
-> **Repository**: [Django-RAG-Study-Assistant-Web](https://github.com/your-id/Django-RAG-Study-Assistant-Web)
+> **Repository**: [Django-RAG-Study-Assistant-Web](https://github.com/wngud09/Django-RAG-Study-Platform)
 
 강의 자료를 업로드하면 **RAG 기반으로 질의응답**을 제공하고, 중요 개념을 **암기장(Anki) 파일로 자동 변환**해주는 학습 플랫폼입니다.
 
@@ -70,25 +68,8 @@
 
 ---
 
-### 3) 📡 Telecom Churn Prediction: 통신사 고객 이탈 예측 대시보드
-> **Repository**: [Telecom-Customer-Churn-Dashboard](https://github.com/your-id/Telecom-Customer-Churn-Dashboard)
-
-Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식별**하고, 마케팅 전략 수립을 돕는 분석 대시보드입니다.
-
-- **Role**: Data Analyst & ML Engineer
-- **Key Tech**:
-  - **Insight Analysis**: 단순 예측을 넘어, **'서비스 품질'과 '이탈률'의 상관관계**를 히트맵으로 시각화하여 비즈니스 액션 도출
-  - **Ensemble Modeling**: LightGBM, CatBoost 앙상블 모델을 적용하여 이탈 예측 정확도 최적화
-  - **Interactive Viz**: Streamlit을 활용하여 이탈 확률 분포 및 **주요 변수 중요도(Feature Importance)** 대시보드 개발
-
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
----
-
-### 4) ⚖️ Legal RAG Chatbot: 법률 정보 검색 어시스턴트
-> **Repository**: [Legal-RAG-Assistant](https://github.com/your-id/Legal-RAG-Assistant)
+### 3) ⚖️ Legal RAG Chatbot: 법률 정보 검색 어시스턴트
+> **Repository**: [Legal-RAG-Assistant](https://github.com/wngud09/Legal-RAG-Chatbot)
 
 복잡한 법률 용어와 판례를 일반인이 쉽게 이해할 수 있도록 돕는 **법률 특화 RAG 챗봇**입니다.
 
@@ -104,8 +85,24 @@ Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식�
 
 ---
 
+### 4) 📡 Telecom Churn Prediction: 통신사 고객 이탈 예측 대시보드
+> **Repository**: [Telecom-Customer-Churn-Dashboard](https://github.com/wngud09/Telecom-Customer-Churn-Prediction)
+
+Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식별**하고, 마케팅 전략 수립을 돕는 분석 대시보드입니다.
+
+- **Role**: Data Analyst & ML Engineer
+- **Key Tech**:
+  - **Insight Analysis**: 단순 예측을 넘어, **'서비스 품질'과 '이탈률'의 상관관계**를 히트맵으로 시각화하여 비즈니스 액션 도출
+  - **Ensemble Modeling**: LightGBM, CatBoost 앙상블 모델을 적용하여 이탈 예측 정확도 최적화
+  - **Interactive Viz**: Streamlit을 활용하여 이탈 확률 분포 및 **주요 변수 중요도(Feature Importance)** 대시보드 개발
+
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+---
+
 ### 5) 🚗 Korean Used Car Market Analysis: 중고차 시세 분석 시각화
-> **Repository**: [Korean-Used-Car-Analysis-Dashboard](https://github.com/your-id/Korean-Used-Car-Analysis-Dashboard)
+> **Repository**: [Korean-Used-Car-Analysis-Dashboard](https://github.com/wngud09/Korean-Used-Car-Market-Analysis)
 
 보배드림, 엔카 등 국내 주요 중고차 플랫폼 데이터를 수집하여 **차종별 시세 트렌드와 선호도**를 분석했습니다.
 
