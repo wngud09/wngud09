@@ -13,8 +13,10 @@
   
 ### 👋 Welcome to My GitHub
 
-**"데이터 흐름을 설계하고, AI로 실무의 비효율을 해결합니다."** 문제의 본질을 파악하여 최적의 모델을 선정(Model Selection)하고,  
-사용자가 실제로 활용 가능한 안정적인 서비스(Full-Stack AI)를 구축합니다.
+**"데이터 흐름을 설계하고, AI로 실무의 비효율을 해결합니다."** 문제의 본질을 파악하여 **최적의 모델을 선정(Model Selection)**하고,  
+사용자가 실제로 활용 가능한 **안정적인 서비스(Full-Stack AI)**를 구축합니다.
+
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=your_github_id.visitor_badge)
 
 </div>
 
@@ -24,9 +26,9 @@
 
 - 🎯 **Focus**: Domain-Specific **sLLM Fine-tuning**, **RAG Optimization**, **Agentic Workflow**
 - 💡 **Strength**: 
-  - **Full-Cycle Dev**: 기획부터 데이터 수집, 전처리, 모델링, 웹 서비스 배포까지 E2E 개발을 주도합니다.
+  - **Full-Cycle Dev**: 기획부터 데이터 수집, 전처리, 모델링, 웹 서비스 배포까지 **E2E 개발**을 주도합니다.
   - **Communication**: 복잡한 기술 개념을 명확히 문서화하고, PM으로서 팀의 목표를 조율하는 협업 역량을 갖췄습니다.
-- 🚀 **Goal**: 단순한 기능 구현을 넘어, 비즈니스 임팩트(ROI, 효율화)를 창출하는 실용적인 AI 서비스를 만듭니다.
+- 🚀 **Goal**: 단순한 기능 구현을 넘어, **비즈니스 임팩트(ROI, 효율화)**를 창출하는 실용적인 AI 서비스를 만듭니다.
 
 ---
 
