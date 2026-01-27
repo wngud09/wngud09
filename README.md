@@ -6,14 +6,15 @@
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=220&section=header&text=Hello,%20I'm%20JuHyeong&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Security-Based%20AI%20Engineer%20%7C%20Data%20Analyst&descAlignY=55&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=220&section=header&text=Hello,%20I'm%20JuHyeong&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Data%20Driven%20Solution&descAlignY=55&descAlign=50" />
 </div>
 
 <div align="center">
   
 ### 👋 Welcome to My GitHub
 
-**"보안(Security)을 이해하는 엔지니어, 데이터 흐름을 설계하여 비즈니스 문제를 해결합니다."** 네트워크/보안 실무 경험을 바탕으로, **안정적이고 효용성 높은 AI 파이프라인**을 구축합니다.
+**"데이터 흐름을 설계하고, AI로 실무의 비효율을 해결합니다."** 문제의 본질을 파악하여 **최적의 모델을 선정(Model Selection)**하고,  
+사용자가 실제로 활용 가능한 **안정적인 서비스(Full-Stack AI)**를 구축합니다.
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=your_github_id.visitor_badge)
 
@@ -23,12 +24,11 @@
 
 ## 🙋‍♂️ About Me
 
-- 🛡️ **Security Base**: 네트워크 패킷 분석 및 모의해킹(MITM) 경험을 보유하여, **보안과 안정성**을 최우선으로 고려합니다.
-- 🎯 **AI & Data**: 도메인 특화 **sLLM Fine-tuning** 및 **RAG 파이프라인 최적화**에 강점이 있습니다.
+- 🎯 **Focus**: Domain-Specific **sLLM Fine-tuning**, **RAG Optimization**, **Agentic Workflow**
 - 💡 **Strength**: 
-  - **Full-Cycle Dev**: 기획부터 데이터 수집, 모델링, 백엔드 API, 웹 배포까지 **E2E 개발**을 주도합니다.
-  - **Communication**: 복잡한 기술 개념을 시각화하고, PM으로서 팀을 리딩하는 협업 역량을 갖췄습니다.
-- 🚀 **Goal**: 단순 기능 구현을 넘어, **비용 효율(Cost-Efficiency)과 신뢰성(Reliability)**을 갖춘 서비스를 만듭니다.
+  - **Full-Cycle Dev**: 기획부터 데이터 수집, 전처리, 모델링, 웹 서비스 배포까지 **E2E 개발**을 주도합니다.
+  - **Communication**: 복잡한 기술 개념을 명확히 문서화하고, PM으로서 팀의 목표를 조율하는 협업 역량을 갖췄습니다.
+- 🚀 **Goal**: 단순한 기능 구현을 넘어, **비즈니스 임팩트(ROI, 효율화)**를 창출하는 실용적인 AI 서비스를 만듭니다.
 
 ---
 
@@ -43,7 +43,7 @@
 - **Key Tech**:
   - **sLLM Optimization**: `Qwen-2.5-14B`에 QLoRA를 적용하여 한국어 특허 데이터 6,000건 학습 (**Accuracy 0.87** 달성)
   - **Reliable RAG**: GPT Score & Spearman 상관계수를 도입한 **Multi-Metric 평가**로 생성 결과의 논리적 타당성 검증
-  - **Secure Arch**: Django & Next.js 기반의 **관리자 권한 분리(RBAC)** 및 OpenSearch 검색 엔진 구축
+  - **Architecture**: Django & Next.js 기반의 **관리자 권한 분리(RBAC)** 및 OpenSearch 검색 엔진 구축
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -59,8 +59,8 @@
 
 - **Key Features**:
   - **Multi-Agent System**: 질문 의도에 따라 단순 검색/심층 분석 에이전트로 자동 분기 처리
-  - **Auto-Anki Pipeline**: 강의 내용에서 핵심 키워드를 추출하여 `.apkg` 파일 자동 생성 및 다운로드
-  - **Real-time**: Django Channels와 Redis를 활용한 **실시간 스트리밍 답변** 및 채팅 인터페이스 구현
+  - **Auto-Anki Pipeline**: 강의 내용에서 핵심 키워드를 추출하여 `.apkg` 파일 자동 생성 및 다운로드 제공
+  - **Real-time**: Django Channels와 Redis를 활용한 **실시간 스트리밍 답변** 및 비동기 작업 처리
 - **Tech Stack**: `Django`, `LangChain`, `ChromaDB`, `Redis`, `Celery`
 
 ---
@@ -80,14 +80,45 @@ Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식�
 
 ---
 
-### 4) 🔓 MITM Simulation: 웹 취약점 분석 및 모의해킹
-> **Repository**: [MITM-Attack-Simulation](https://github.com/your-id/MITM-Attack-Simulation)
+### 4) ⚖️ Legal RAG Chatbot: 법률 정보 검색 어시스턴트
+> **Repository**: [Legal-RAG-Assistant](https://github.com/your-id/Legal-RAG-Assistant)
 
-사용자 계정 탈취 위험성을 분석하기 위해 **피싱 사이트 구축부터 패킷 스니핑까지 공격 전 과정**을 시뮬레이션했습니다. (졸업논문 프로젝트)
+복잡한 법률 용어와 판례를 일반인이 쉽게 이해할 수 있도록 돕는 **법률 특화 RAG 챗봇**입니다.
 
-- **Scenario**: 네이버 로그인 페이지 클론 코딩(Phishing) 및 데이터 탈취 로직 구현
-- **Analysis**: 로그인 시 발생하는 평문 패킷 흐름을 분석하여 **HTTPS 암호화 및 시큐어 코딩의 중요성** 실증
-- **Tech Stack**: `PHP`, `JavaScript`, `HTML/CSS`, `Wireshark`
+- **Key Features**:
+  - **Legal RAG**: 판례 데이터 임베딩 및 벡터 DB 기반의 **의미 기반 검색(Semantic Search)**
+  - **Context Awareness**: 대화 맥락을 유지하며 관련된 법률 조항을 정확히 인용하여 답변
+  - **Deploy**: Docker 컨테이너 기반의 배포 환경 구축으로 이식성 확보
+- **Tech Stack**: `Python`, `LangChain`, `FAISS`, `Docker`
+
+---
+
+### 5) 🚗 Korean Used Car Market Analysis: 중고차 시세 분석 시각화
+> **Repository**: [Korean-Used-Car-Analysis-Dashboard](https://github.com/your-id/Korean-Used-Car-Analysis-Dashboard)
+
+보배드림, 엔카 등 국내 주요 중고차 플랫폼 데이터를 수집하여 **차종별 시세 트렌드와 선호도**를 분석했습니다.
+
+- **Data Pipeline**: `Selenium`과 `BeautifulSoup`을 활용한 동적 크롤링 및 데이터 전처리 자동화
+- **Analysis**: 브랜드별 감가율 분석 및 가격대별 추천 차종 FAQ 시스템 구현
+- **Tech Stack**: `Python`, `Selenium`, `Streamlit`, `Plotly`
+
+### 6) 🧑‍🍳 AI Store Manager Agent: 매장 매출 분석 & 운영 자동화 (In Progress)
+
+---
+
+POS/매출 데이터와 외부 변수(날씨, 트렌드)를 통합 분석하여 **매출 하락 원인을 설명**하고, 마케팅 실행을 자동화하는 **AI 점장 에이전트**입니다.
+
+- **Objective**: 점주의 "감"에 의존하는 운영을 데이터 기반으로 전환하여 **마케팅 ROI 및 운영 효율 극대화**
+- **Key Features**:
+  - **ReAct Workflow**: [현황 분석 → 계획 → 실행 → 검토 → 제안]의 루프를 통해 능동적으로 문제 해결
+  - **Marketing Auto**: 라이징 인플루언서 발굴/스코어링 및 **컨택 메일 초안 자동 생성**
+  - **Ops Automation**: 직원 스케줄 추천, **손익계산서(P&L) 자동화**, 네이버 플레이스 순위 추적
+- **Tech Stack**: `Python`, `LangChain`, `Google BigQuery`, `SQL`, `Docker`
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![BigQuery](https://img.shields.io/badge/Google%20BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
@@ -111,15 +142,22 @@ Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식�
 
 ## 🏆 Education & Awards
 
+### 🏅 Awards
 - **한국컴퓨터정보학회(KSCI) 하계/동계 학술대회** | 우수논문상 (2026.01)
   - 논문: *sLLM을 활용한 특허 거절사유 자동 생성 및 의미 기반 평가*
 - **SK네트웍스 Family AI Camp 최종 프로젝트** | 우수상 (2025.11)
   - 주제: 기업 실무 연계형 특허 AI 에이전트 개발
-- **SK Networks Family AI Camp (15기)** | AI/SW 개발자 과정 수료 (2025.05 - 2025.11)
-- **LG Aimers** | AI 전문가 양성 과정 Phase 1 수료
-- **오산대학교** | 컴퓨터소프트웨어과 졸업 (학점 3.76/4.5)
-- **자격증** | 데이터분석 준전문가(ADsP)
 
+### 🎓 Education
+- **SK Networks Family AI Camp (15기)** | AI/SW 개발자 과정 수료 (2025.05 - 2025.11)
+- **LG Aimers** | AI 전문가 양성 과정 Phase 1 수료 
+- **오산대학교** | 컴퓨터소프트웨어과 졸업 (학점 3.76/4.5)
+
+### 📜 Certificates
+- **데이터분석 준전문가 (ADsP)** | 한국데이터산업진흥원
+- **SQL 개발자 (SQLD)** | 한국데이터산업진흥원
+- **정보처리산업기사** | 한국산업인력공단
+- **리눅스마스터 2급** | 한국정보통신진흥협회
 ---
 
 <div align="center">
