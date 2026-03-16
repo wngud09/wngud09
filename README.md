@@ -71,50 +71,93 @@
 ### 3) ⚖️ Legal RAG Chatbot: 법률 정보 검색 어시스턴트
 > **Repository**: [Legal-RAG-Assistant](https://github.com/wngud09/Legal-RAG-Chatbot)
 
-복잡한 법률 용어와 판례를 일반인이 쉽게 이해할 수 있도록 돕는 **법률 특화 RAG 챗봇**입니다.
+약 5.5만 건의 판례 데이터를 활용하여 사용자의 질문과 관련된 법률 근거를 검색하고, 이를 바탕으로 자연스러운 상담 답변을 생성하는 RAG 기반 챗봇 서비스입니다.
 
-- **Role**: AI Application Developer
-- **Key Tech**:
-  - **Legal RAG Engine**: 판례 데이터 임베딩 및 벡터 DB(FAISS) 기반의 **의미 기반 검색(Semantic Search)**
-  - **Context Awareness**: 대화 맥락을 유지하며 사용자의 질문에 관련된 법률 조항을 정확히 인용하여 답변
-  - **Containerization**: Docker 컨테이너 기반의 배포 환경 구축으로 이식성 및 배포 편의성 확보
+**My Role:** AI/LLM Engineer · DevOps / MLOps
 
+**My Contributions**
+- LangChain 기반으로 벡터 검색과 LLM 응답 생성을 결합한 RAG 파이프라인 설계 및 구현
+- FAISS 인덱스를 활용해 수만 건의 판례 데이터에 대한 고속 유사도 검색 시스템 구축
+- Upstage Embeddings와 OpenAI GPT-4o를 연동하여 법률 문맥 이해와 답변 품질 최적화
+- 프롬프트 엔지니어링을 통해 검색된 판례 근거 중심으로 답변하도록 설계하여 환각 현상 완화
+- Docker / Docker-Compose를 도입해 개발 환경을 표준화하고 실행 환경 재현성 확보
+- entrypoint.sh 기반 초기화 자동화 및 환경 설정 구조 정비로 운영 효율 개선
+
+**Project Features**
+- 사용자 질문 기반 지능형 법률 상담
+- 사건명 / 사건번호 기반 정밀 판례 검색
+- 검색된 판례를 근거로 한 RAG 기반 답변 생성
+- 컨테이너 기반 실행 환경 표준화
+
+**Tech Stack**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Upstage](https://img.shields.io/badge/Upstage-000000?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
 ### 4) 📡 Telecom Churn Prediction: 통신사 고객 이탈 예측 대시보드
 > **Repository**: [Telecom-Customer-Churn-Dashboard](https://github.com/wngud09/Telecom-Customer-Churn-Prediction)
 
-Cell2Cell 데이터셋을 활용하여 **이탈 위험 고객을 조기에 식별**하고, 마케팅 전략 수립을 돕는 분석 대시보드입니다.
+**My Role:** Streamlit Web Dashboard Development
 
-- **Role**: Data Analyst & ML Engineer
-- **Key Tech**:
-  - **Insight Analysis**: 단순 예측을 넘어, **'서비스 품질'과 '이탈률'의 상관관계**를 히트맵으로 시각화하여 비즈니스 액션 도출
-  - **Ensemble Modeling**: LightGBM, CatBoost 앙상블 모델을 적용하여 이탈 예측 정확도 최적화
-  - **Interactive Viz**: Streamlit을 활용하여 이탈 확률 분포 및 **주요 변수 중요도(Feature Importance)** 대시보드 개발
+**My Contributions**
+- Streamlit 기반의 웹 서비스 화면 구성 및 사용자 인터페이스 구현
+- 프로젝트 개요, EDA, 모델링 결과, 인사이트 요약 등 주요 페이지를 대시보드 형태로 정리
+- 사용자가 CSV 파일을 업로드해 실시간으로 이탈 확률과 예측 결과를 확인할 수 있는 시뮬레이션 기능 구현
+- 데이터 탐색(EDA) 및 모델 성능 비교 결과를 시각적으로 전달할 수 있도록 화면 흐름 구성
+- 웹 구현뿐 아니라 EDA와 모델 평가 과정에도 참여하며 전체 분석 파이프라인을 이해하고 협업 수행
 
+**Project Features**
+- 고객 이탈 분포 및 주요 변수별 이탈률 시각화
+- XGBoost 및 Soft Voting 모델 성능 비교
+- CSV 업로드 기반 이탈 예측 시뮬레이션
+- 주요 이탈 요인 분석 및 비즈니스 인사이트 제공
+
+**Results**
+- **XGBoost:** Accuracy 0.7162 / Recall 0.5644
+- **Soft Voting Ensemble:** Accuracy 0.6388 / Recall 0.6386
+- 가입 후 1년 미만 고객, 기기 사용일수가 오래된 고객, 낮은 요금제 사용 고객에서 높은 이탈률을 확인하고 맞춤형 리텐션 전략을 제안
+
+**Tech Stack**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-8B4513?style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 ---
 
 ### 5) 🚗 Korean Used Car Market Analysis: 중고차 시세 분석 시각화
 > **Repository**: [Korean-Used-Car-Analysis-Dashboard](https://github.com/wngud09/Korean-Used-Car-Market-Analysis)
 
-보배드림, 엔카 등 국내 주요 중고차 플랫폼 데이터를 수집하여 **차종별 시세 트렌드와 선호도**를 분석했습니다.
+보배드림, 엔카, 차차차 등 국내 주요 중고차 플랫폼 데이터를 통합하여, 차량 시세 검색·비교와 시장 트렌드 시각화를 제공하는 프로젝트입니다.
 
-- **Role**: Data Engineer & Pipeline Builder
-- **Key Tech**:
-  - **Automated Pipeline**: `Selenium`과 `BeautifulSoup`을 활용한 동적 크롤링 및 데이터 전처리 자동화
-  - **Market Analysis**: 브랜드별 감가율 분석 및 가격대별 추천 차종 FAQ 시스템 구현
-  - **Dashboarding**: Plotly와 Streamlit을 연동한 인터랙티브 시세 시각화
+**My Role:** Web Crawling / Data Collection
 
+**My Contributions**
+- 중고차 플랫폼의 차량 데이터를 수집하기 위한 크롤링 작업 수행
+- 사이트별 페이지 구조를 분석하여 차량명, 가격, 연식, 주행거리 등 주요 정보 추출
+- 수집 데이터를 후속 DB 저장 및 시각화에 활용할 수 있도록 정리
+- 데이터 수집 단계에 참여하며 전체 데이터 파이프라인 흐름 이해 및 협업 수행
+
+**Project Features**
+- 차량 조건별 통합 검색 및 가격 비교
+- 브랜드/모델/색상/가격 분포 시각화
+- 중고차 구매 관련 FAQ 제공
+
+**Tech Stack**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-8B4513?style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 
 ---
 
