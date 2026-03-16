@@ -71,10 +71,6 @@
 - 자동 복습 카드 생성 및 Anki 연동
 - Django 기반 사용자 계정 및 대화 이력 관리
 
-**Results**
-- 챗봇 응답을 복습 가능한 학습 자산으로 전환하는 개인화된 지식 관리 워크플로우 구현
-- AI, DB, 웹 서비스, 배포가 결합된 통합 시스템 개발 경험 확보
-
 **Tech Stack**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
