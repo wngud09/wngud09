@@ -53,18 +53,38 @@
 ### 2) 📝 Django RAG Study Assistant: 학습 보조 & Anki 생성 웹 서비스
 > **Repository**: [Django-RAG-Study-Assistant-Web](https://github.com/wngud09/Django-RAG-Study-Platform)
 
-강의 자료를 업로드하면 **RAG 기반으로 질의응답**을 제공하고, 중요 개념을 **암기장(Anki) 파일로 자동 변환**해주는 학습 플랫폼입니다.
+사용자와 챗봇의 학습 대화를 Anki와 연동하여 복습 가능한 학습 카드로 전환하고, 장기 기억 형성을 지원하는 지능형 지식 관리 시스템입니다.  
+다중 소스 RAG와 LangGraph 기반 라우팅을 통해 정확한 학습 정보를 제공하고, Django 기반 웹 서비스로 확장해 실제 사용성을 높였습니다.
 
-- **Role**: Full-Stack Developer (Django, LangChain)
-- **Key Tech**:
-  - **Multi-Agent System**: 질문 의도에 따라 단순 검색/심층 분석 에이전트로 자동 분기 처리하여 답변 품질 향상
-  - **Auto-Anki Pipeline**: 강의 내용에서 핵심 키워드를 추출하여 `.apkg` 파일 자동 생성 및 다운로드 제공
-  - **Real-time Architecture**: Django Channels와 Redis를 활용한 **실시간 스트리밍 답변** 및 비동기 작업 처리
+**My Role:** AI Integration Engineer · Chatbot API Manager
 
+**My Contributions**
+- 질문·답변 데이터를 4지선다형 문제와 해설 형태로 변환하는 복습 카드 파싱 로직 설계
+- AnkiConnect API를 활용해 생성된 카드를 Anki 덱에 자동 저장하는 연동 모듈 구현
+- LangGraph 기반 AI 엔진을 API 형태로 추상화하고 Django 백엔드와의 인터페이스 관리
+- AI 기능과 웹 서비스 간 연결 구조를 정리하여 서비스 환경에서 안정적으로 동작하도록 통합
+- Git 브랜치 전략 및 충돌 해결 과정에 참여하며 협업 효율 개선
+
+**Project Features**
+- PGVector, PDF, 웹 검색을 결합한 Multi-source RAG
+- LangGraph 기반 질문 의도 분석 및 라우팅
+- 자동 복습 카드 생성 및 Anki 연동
+- Django 기반 사용자 계정 및 대화 이력 관리
+
+**Results**
+- 챗봇 응답을 복습 가능한 학습 자산으로 전환하는 개인화된 지식 관리 워크플로우 구현
+- AI, DB, 웹 서비스, 배포가 결합된 통합 시스템 개발 경험 확보
+
+**Tech Stack**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-0E7C86?style=flat-square)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white)
 
 ---
 
