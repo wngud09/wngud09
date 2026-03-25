@@ -32,21 +32,38 @@
 
 ## 💼 Featured Projects
 
-### 1) ⚖️ Veraclaim: 특허 거절 사유 예측 및 자동 대응 AI
+### 1) ⚖️ Patent Rejection Reason Generation System: 로컬 LLM 기반 특허 거절 사유 생성 시스템
 > **Repository**: [Veraclaim-Patent-Response-AI](https://github.com/wngud09/Patent-Rejection-Response-AI) > **🏆 Awards**: SK네트웍스 Family AI 캠프 **우수상** / 한국컴퓨터정보학회(KSCI) **우수논문상** 
 
-특허 심사 비용과 시간을 줄이기 위해, **거절 가능성을 사전 진단하고 대응 논리를 자동 생성**하는 도메인 특화 sLLM 솔루션입니다.
+민감한 특허 데이터를 보호하기 위해 외부 서버 전송이 없는 로컬 환경에서 Qwen2.5 모델을 운용하며, QLoRA 미세조정과 RAG를 결합해 심사관 관점의 논리적인 거절 사유를 생성하는 시스템입니다.  
+정량 지표와 루브릭 기반 LLM 평가(LLM-as-a-Judge)를 결합한 하이브리드 검증 방식을 통해 생성 품질의 실무적 신뢰성을 확보했습니다.
 
-- **Role**: PM, AI 모델링(sLLM), RAG 파이프라인 설계, 백엔드 개발
-- **Key Tech**:
-  - **sLLM Optimization**: `Qwen-2.5-14B`에 QLoRA를 적용하여 한국어 특허 데이터 6,000건 학습 (**Accuracy 0.87** 달성)
-  - **Reliable RAG**: GPT Score & Spearman 상관계수를 도입한 **Multi-Metric 평가**로 생성 결과의 논리적 타당성 검증
-  - **Architecture**: Django & Next.js 기반의 **관리자 권한 분리(RBAC)** 및 OpenSearch 검색 엔진 구축
+**My Role:** PM · AI Integration Engineer · Chatbot API Manager
 
+**My Contributions**
+- 타깃 청구항과 상위 3개의 유사 청구항 컨텍스트를 결합한 chat-style 입력 구조 설계 및 대규모 특허 데이터 전처리 파이프라인 구축
+- Qwen2.5 기반 4-bit QLoRA 경량 미세조정 및 Rank Sweep 실험을 통한 도메인 적응 성능 최적화
+- GPT-4o-mini 기반 5단계 루브릭 평가 시스템 구축 및 다단계 점수 안정화(Strict Parsing, Fallback) 로직 구현
+- FAISS 기반 Vector DB와 임베딩 모델을 활용하여 유사 청구항 및 거절 사례를 탐색하는 RAG 모듈 통합
+- Django REST Framework와 Next.js 간 인터페이스를 관리하고, 관리자 승인 기반의 보안 회원가입(Pending status) 프로세스 구현
+- 특허법 조문, 심사기준, 관련 논문 데이터를 통합하여 생성 답변의 법적 근거와 배경지식을 강화하는 다중 소스 컨텍스트 구성
+
+**Project Features**
+- 온프레미스(On-premise) LLM 환경 구축을 통한 기업 기밀 정보 및 특허 아이디어 유출 방지
+- ROUGE, BLEU, BERTScore, chrF를 결합한 다각적 정량 품질 평가
+- 인간 평가 라벨과 Judge 점수 간 상관관계(Pearson 0.611) 검증을 통한 평가 체계의 객관성 확보
+- 등록/거절 예측 분류 모델과 근거 생성 모델의 역할 분리를 통한 시스템 처리 효율 최적화
+
+**Tech Stack**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL(PGVector)-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square)
+![Qwen2.5](https://img.shields.io/badge/Qwen2.5(QLoRA)-7A3EFF?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white)
+![AWS RDS](https://img.shields.io/badge/AWS_RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
 
 ---
 
