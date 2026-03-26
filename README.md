@@ -101,7 +101,39 @@
 
 ---
 
-### 3) ⚖️ Legal RAG Chatbot: 법률 정보 검색 어시스턴트
+### 3) 🧑‍🍳 아리계곡 AI 점주용 데이터 분석 & 마케팅 에이전트
+> **Repository**: [AI-Store-Manager-Agent](https://github.com/o2fms/fms-platform)
+
+**My Role:** APM(Assistant Product Manager) · AI Integration Engineer
+
+**My Contributions**
+- LangChain SQL Agent를 활용해 점주의 자연어 질의를 SQL로 변환하고, POS 매출 DB를 실시간 조회하여 핵심 지표를 산출하는 NL2SQL 기반 매장 진단 엔진 설계
+- 내부 매출 데이터에 날씨 API, 네이버 플레이스 순위 등 외부 소스를 결합해 매출 변동 원인을 다각도로 분석하는 Multi-Source 컨텍스트 기반 의사결정 로직 구현
+- 분석 결과를 바탕으로 ‘라이징 인플루언서’ 탐색 및 맞춤형 제안 문구를 자동 생성하는 Marketing-as-a-Service 워크플로우를 기획하고, Human-in-the-loop 승인 프로세스를 통해 운영 안정성 확보
+- 비정형 매출 엑셀 데이터를 정규화된 PostgreSQL 데이터베이스로 자동 적재하는 수집·전처리 파이프라인(`scripts/pipeline`) 구축 및 자동화
+- `few_shot_examples.json` 기반 프롬프트 엔지니어링을 통해 매장 도메인 특화 용어와 복잡한 매출 구조에 대한 모델 이해도를 높여 SQL 생성 정확도 향상
+- FastAPI 기반 도메인 라우터를 설계하여 사용자 질문의 의도(매출 분석 / 리뷰 감성 분석)를 판별하고 적절한 서비스 모듈로 자동 분기되는 백엔드 구조 구현
+
+**Project Features**
+- 채팅 기반 ChatBI 인터페이스를 통해 “어제 매출 하락 원인 분석해줘”와 같은 자연어 질의에 대해 데이터 기반 Insight와 Action Plan 제공
+- AI의 분석 단계를 실시간으로 시각화하는 Live Thinking 기능을 통해 추론 과정의 투명성을 확보하고 사용자 신뢰도 및 UX 향상
+- 단순 매출 및 데이터 조회 테스트셋 50개 기준 SQL 쿼리 생성 정확도 90% 달성
+- 기존 수 시간이 걸리던 데이터 수집, 분석, 마케팅 전략 수립, 인플루언서 섭외 프로세스를 5분 이내로 단축하여 운영 효율화 실현
+
+**Tech Stack**  
+![Python](https://img.shields.io/badge/Python(FastAPI)-009688?style=flat-square&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js(React)-000000?style=flat-square&logo=next.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL(Prisma)-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white)
+
+---
+
+### 4) ⚖️ Legal RAG Chatbot: 법률 정보 검색 어시스턴트
 > **Repository**: [Legal-RAG-Assistant](https://github.com/wngud09/Legal-RAG-Chatbot)
 
 약 5.5만 건의 판례 데이터를 활용하여 사용자의 질문과 관련된 법률 근거를 검색하고, 이를 바탕으로 자연스러운 상담 답변을 생성하는 RAG 기반 챗봇 서비스입니다.
@@ -132,7 +164,7 @@
 
 ---
 
-### 4) 📡 Telecom Churn Prediction: 통신사 고객 이탈 예측 대시보드
+### 5) 📡 Telecom Churn Prediction: 통신사 고객 이탈 예측 대시보드
 > **Repository**: [Telecom-Customer-Churn-Dashboard](https://github.com/wngud09/Telecom-Customer-Churn-Prediction)
 
 **My Role:** Streamlit Web Dashboard Development
@@ -164,7 +196,7 @@
 ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square)
 ---
 
-### 5) 🚗 Korean Used Car Market Analysis: 중고차 시세 분석 시각화
+### 6) 🚗 Korean Used Car Market Analysis: 중고차 시세 분석 시각화
 > **Repository**: [Korean-Used-Car-Analysis-Dashboard](https://github.com/wngud09/Korean-Used-Car-Market-Analysis)
 
 보배드림, 엔카, 차차차 등 국내 주요 중고차 플랫폼 데이터를 통합하여, 차량 시세 검색·비교와 시장 트렌드 시각화를 제공하는 프로젝트입니다.
@@ -188,24 +220,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-
----
-
-### 6) 🧑‍🍳 AI Store Manager Agent: 매장 매출 분석 & 운영 자동화 (In Progress)
-> **Repository**: [AI-Store-Manager-Agent](https://github.com/o2fms/fms-platform)
-
-POS/매출 데이터와 외부 변수(날씨, 트렌드)를 통합 분석하여 **매출 하락 원인을 설명**하고, 마케팅 실행을 자동화하는 **AI 점장 에이전트**입니다.
-
-- **Role**: AI Engineer (Agentic Workflow Design)
-- **Key Tech**:
-  - **ReAct Workflow**: [현황 분석 → 계획 → 실행 → 검토 → 제안]의 루프를 통해 능동적으로 문제 해결
-  - **Marketing Automation**: 라이징 인플루언서 발굴/스코어링 및 **컨택 메일 초안 자동 생성**
-  - **Operations Logic**: 직원 스케줄 추천, **손익계산서(P&L) 자동화**, 네이버 플레이스 순위 추적
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
-![BigQuery](https://img.shields.io/badge/Google%20BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
